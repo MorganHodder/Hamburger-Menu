@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hamburgerrr Menu</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <img src="#" alt="Company Logo Image" class="logo_face" />
+        </a>
+        <a href="#">
+          <p class="company_name">COMPANY NAME</p>
+        </a>
+      </div>
+      <div class="ham-menu">
+        <button id="hamburger" aria-label="Menu Button">
+          <i class="fa fa-bars fa-2x" aria-hidden="true"></i>
+        </button>
+      </div>
+      <div class="menu hide">
+        <a href="index.html" class="menu_item menu_item_mobile" id="active">
+          Item 4
+        </a>
+        <a href="About.html" class="menu_item menu_item_mobile">Item 2</a>
+        <a href="Contact.html" class="menu_item menu_item_mobile">Item 3</a>
+        <a href="Aftercare.html" class="menu_item menu_item_mobile">Item 4 </a>
+        <a href="#FAQ" class="menu_item menu_item_mobile">
+          Item 5<i class="fa fa-arrow-circle-o-down" aria-hidden="true"></i>
+        </a>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
